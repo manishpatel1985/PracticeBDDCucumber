@@ -1,0 +1,274 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Create New Contact Scenario",
+        "description": "",
+        "id": "create-contacts;create-new-contact-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_Cogmento_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters username \"manishpatel1985@googlemail.com\"  and password \"July2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manishpatel1985@googlemail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "July2020",
+                  "offset": 69
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user move to new cotactpage",
+            "match": {
+              "location": "LoginStepDefination.user_move_to_new_cotactpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter \"tom\" and \"peter\" and \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 12
+                },
+                {
+                  "val": "peter",
+                  "offset": 22
+                },
+                {
+                  "val": "abc",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Create New Contact Scenario",
+        "description": "",
+        "id": "create-contacts;create-new-contact-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of login page is Cogmento CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_Cogmento_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters username \"manishpatel1985@googlemail.com\"  and password \"July2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manishpatel1985@googlemail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "July2020",
+                  "offset": 69
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user move to new cotactpage",
+            "match": {
+              "location": "LoginStepDefination.user_move_to_new_cotactpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter \"john\" and \"peter\" and \"bcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "john",
+                  "offset": 12
+                },
+                {
+                  "val": "peter",
+                  "offset": 23
+                },
+                {
+                  "val": "bcd",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_and_and(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Contacts",
+    "description": "",
+    "id": "create-contacts",
+    "keyword": "Feature",
+    "uri": "C:/Selenium/manishSelenium/manishSelenium/FreeCrmBDDFrameWork/src/main/java/Features/contacts.feature"
+  }
+]

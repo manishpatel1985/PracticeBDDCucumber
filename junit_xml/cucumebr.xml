@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="Create Contacts" name="Create New Contact Scenario" time="0">
+<system-out><![CDATA[Given user is already on Login Page.........................................skipped
+When title of login page is Cogmento CRM....................................skipped
+Then User enters username "manishpatel1985@googlemail.com"  and password "July2020".skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+Then user move to new cotactpage............................................skipped
+Then user enter "tom" and "peter" and "abc".................................skipped
+Then close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Create Contacts" name="Create New Contact Scenario 2" time="0">
+<system-out><![CDATA[Given user is already on Login Page.........................................skipped
+When title of login page is Cogmento CRM....................................skipped
+Then User enters username "manishpatel1985@googlemail.com"  and password "July2020".skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+Then user move to new cotactpage............................................skipped
+Then user enter "john" and "peter" and "bcd"................................skipped
+Then close the browser......................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
